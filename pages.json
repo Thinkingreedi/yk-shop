@@ -1,29 +1,33 @@
 {
+  "lazyCodeLoading": "requiredComponents",
   "pages": [{
     "path": "pages/home/home",
     "style": {
-      "navigationBarTitleText": "铭那优购",
+      "navigationBarTitleText": "拾惠优购",
       "enablePullDownRefresh": false
     }
-
-  }, {
+  }, 
+  
+  {
     "path": "pages/cate/cate",
     "style": {
-      "navigationBarTitleText": "铭那优购",
+      "navigationBarTitleText": "拾惠优购",
       "enablePullDownRefresh": false
     }
-
-  }, {
+  }, 
+  
+  {
     "path": "pages/cart/cart",
     "style": {
-      "navigationBarTitleText": "铭那优购",
+      "navigationBarTitleText": "拾惠优购",
       "enablePullDownRefresh": false
     }
-
-  }, {
+  }, 
+  
+  {
     "path": "pages/my/my",
     "style": {
-      "navigationBarTitleText": "铭那优购",
+      "navigationBarTitleText": "拾惠优购",
       "enablePullDownRefresh": false
     }
   }],
@@ -56,7 +60,7 @@
   }],
   "globalStyle": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "铭那优购",
+    "navigationBarTitleText": "拾惠优购",
     "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF"
   },

@@ -28,10 +28,12 @@
       // 获取微信用户的基本信息
       getUserProfile() {
         uni.getUserProfile({
-          desc: "获取你的昵称、头像、地区及性别",
+          desc: "获取您的昵称、头像、地区及性别",
           success: (res) => {
             this.updateUserInfo(res.userInfo)
             this.getToken(res)
+            console.log(res.userInfo)
+            console.log(res)
           },
           fail() {
             uni.$showMsg('您取消了登录授权！')

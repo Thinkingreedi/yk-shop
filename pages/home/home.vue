@@ -96,6 +96,8 @@
           uni.switchTab({
             url: '/pages/cate/cate'
           })
+        }else{
+          uni.$showMsg('开发完善中....^-^')
         }
       },
       // 定义获取楼层列表数据的方法

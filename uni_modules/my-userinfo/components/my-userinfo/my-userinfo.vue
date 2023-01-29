@@ -110,6 +110,9 @@
           this.updateAddress({})
         }
       }
+    },
+    mounted() {
+       uni.$showMsg('开发完善中....^-^')
     }
   }
 </script>
